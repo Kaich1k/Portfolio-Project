@@ -120,17 +120,15 @@ html {
     grid-template-columns: 2fr 1fr;
   }
   
-  #game-engines img {
+  #game-engines video {
     width: 400px;
     height: 250px;
-    display: flex;  
-    border: ridge 2px black;
-    border-radius: 25px;
+    display: flex;
     margin: auto;
     margin-left: 20px;
   }
   
-  #game-engines img:hover {
+  #game-engines video:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
   }
