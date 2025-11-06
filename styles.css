@@ -7,7 +7,7 @@ html {
     color: black;
     padding: 25px;
     font-family: "Space Mono";
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 20px auto;
     max-width: 1100px;
   }
@@ -43,7 +43,7 @@ html {
     color: black;
     padding: 25px;
     font-family: "Space Mono";
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 20px auto;
     max-width: 1100px;
   }
@@ -53,7 +53,7 @@ html {
     color: black;
     padding: 25px;
     font-family: "Space Mono";
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 20px auto;
     max-width: 1100px;
   }
@@ -84,7 +84,7 @@ html {
     color: black;
     padding: 25px;
     font-family: "Space Mono";
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 20px auto;
     max-width: 1100px;
   }
@@ -118,6 +118,7 @@ html {
   #game-engines {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   
   #game-engines video {
@@ -137,6 +138,7 @@ html {
     display: flex;
     text-align: center;
     align-items: center;
+    grid-row: span 2;
   }
   
   #gpace {
@@ -168,7 +170,7 @@ html {
     color: black;
     padding: 25px;
     font-family: "Space Mono";
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 20px auto;
     max-width: 1100px;
   }
@@ -178,6 +180,26 @@ footer img {
     height: 100px;
     border-radius: 50px;
 }
+
+footer .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+footer a:hover {
+  cursor: pointer;
+}
+
   
   @media only screen and (max-width: 500px) {
     #about-me img {
@@ -202,12 +224,9 @@ footer img {
   }
   
   @media only screen and (max-width: 700px) {
-    #game-engines img {
-      transform: scale(.5);
+    #game-engines video {
+      transform: scale(.7);
       transition: .5s ease-in-out;
     }
-  
-    #game-engines p {
-      font-size: 12px;
-    }
+
   }
