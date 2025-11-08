@@ -114,6 +114,11 @@ html {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
   }
+
+  #luciddreaminghome-img:not(:hover){
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+  }
   
   #game-engines {
     display: grid;
@@ -132,6 +137,11 @@ html {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
     cursor: pointer;
+  }
+
+  #game-engines video:not(:hover){
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
   }
   
   #game-engines p {
@@ -157,6 +167,11 @@ html {
   
   #gpace img:hover {
     transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+  }
+
+  #gpace img:not(:hover){
+    transform: scale(1);
     transition: 0.5s ease-in-out;
   }
   
