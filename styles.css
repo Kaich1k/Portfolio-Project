@@ -131,10 +131,11 @@ html {
   }
   
   #game-engines video {
-    width: 280px;
+    width: 307px;
     height: 175px;
     display: flex;
     margin: auto;
+    border-radius: 1px;
   }
   
   #game-engines video:hover {
